@@ -1,0 +1,28 @@
+This Python code implements a Tic-Tac-Toe game using the Pygame library for the graphical interface and NumPy for handling the game board state. The game includes functionalities for player moves, AI moves using the minimax algorithm, and game state checks for wins and draws.
+
+Key Features:
+
+Game Initialization:
+
+Sets up colors, screen dimensions, and grid sizes.
+Initializes a 3x3 game board using NumPy.
+Draws the initial grid lines.
+Drawing Functions:
+
+draw_lines(): Draws the grid lines on the game board.
+draw_figure(): Draws circles and crosses based on the board state.
+Game Logic:
+
+mark_square(): Marks a square with the player's move.
+avail_square(): Checks if a square is available.
+is_full_board(): Checks if the board is full.
+check_win(): Checks for winning conditions for a player.
+AI Logic:
+
+minimax(): Implements the minimax algorithm to evaluate the best move for the AI.
+best_move(): Determines and executes the best move for the AI.
+Game Control:
+
+restart_game(): Resets the game to the initial state.
+run(): Main game loop to handle events, player moves, AI moves, and updating the game display.
+This code provides a complete implementation of a Tic-Tac-Toe game with basic AI, making it a solid example of game development using Pygame and algorithmic decision-making with minimax.
